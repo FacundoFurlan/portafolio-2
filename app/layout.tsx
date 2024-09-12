@@ -26,8 +26,27 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased flex`}
       >
+        <div className="flex flex-col min-h-screen min-w-[20vw] bg-zinc-900 justify-between align-center">
+          <div className="flex flex-col justify-center align-center mx-6 mt-6">
+            <a href="/" className="mb-2 hover:bg-zinc-800 p-3 rounded text-xl">This is me</a>
+            <a href="/proyects" className="mb-2 hover:bg-zinc-800 p-3 rounded text-xl">Proyects</a>
+            <a href="/cv" className="mb-10 hover:bg-zinc-800 p-3 rounded text-xl">CV</a>
+            <div className="text-xl mb-1">Contact</div>
+            <div className="flex flex-col justify-evenly rounded bg-zinc-800 p-1">
+              <div>📫​ Email</div>
+              <div>facundofurlan7@gmail.com</div>
+              <div>📱​​ Work Number</div>
+              <div>+54-3482-644200</div>
+            </div>
+          </div>
+          <div className="flex flex-row justify-around align-center mx-6 mb-6">
+            <img className="w-8" src="/linkedin.svg" alt="" />
+            <img className="w-8" src="/github.svg" alt="" />
+            <img className="w-8" src="/telegram.svg" alt="" />
+          </div>
+        </div>
         {children}
       </body>
     </html>
