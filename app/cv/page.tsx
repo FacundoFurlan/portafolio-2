@@ -1,6 +1,6 @@
 export default function Cv(){
     return(
-        <div className="pt-10 flex flex-col justify-center align-center bg-zinc-800 ml-[25%] min-h-[100vh] w-full">
+        <div className="pt-10 flex flex-col justify-center align-center bg-zinc-800 xl:ml-[25%] min-h-[100vh] w-full">
             <div className="flex flex-col justify-center mx-10">
                 <div className="text-3xl mb-4">Profile ⭐</div>
                 <div className="mb-6">Software Engeenier currently looking for a job as a FullStack Developer. I have Academic/Work experience in web and desktop projects with technologies such as C++, C# and TypeScript, as well as HTML, CSS, Tailwind CSS and React. In addition to MySQL, SQL Server, FireBase and MongoDB database management.</div>
@@ -86,7 +86,7 @@ export default function Cv(){
                     </li>
                 </ul>
                 <div className="text-3xl mb-4">Technologies 🚀​​​</div>
-                <ul className="ml-8 list-disc columns-4 mb-6">
+                <ul className="ml-8 list-disc columns-2 xl:columns-4 mb-6">
                     <li>
                         JavaScript
                     </li>
