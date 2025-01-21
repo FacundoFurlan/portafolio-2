@@ -4,7 +4,7 @@ export default function HomePage(){
             <div className="text-white text-xl mb-2 mt-5">Hello! 👋</div>
             <div className="text-white text-5xl mb-2">My name is Facundo Furlan</div>
             <div className="text-white text-3xl mb-4">Full Stack Web Developer ⚡️</div>
-            <p className=" mb-4">I'm a Software Engineering, an electromechanic technician, and I'm currently studying Digital Entertainment and Game Development. I'm looking forward to work in the web development industry as a Full Stack developer, using a variety of technologies such as TypeScript, Next.JS, React, TailwindCSS, HTML, CSS, MongoDB, among many others.</p>
+            <p className=" mb-4">I&apos;m a Software Engineering, an electromechanic technician, and I&apos;m currently studying Digital Entertainment and Game Development. I&apos;m looking forward to work in the web development industry as a Full Stack developer, using a variety of technologies such as TypeScript, Next.JS, React, TailwindCSS, HTML, CSS, MongoDB, among many others.</p>
             <div className="flex flex-row mb-4">
                 <button className="rounded bg-zinc-700 p-2 mr-3"><a href="https://www.linkedin.com/in/facundo-furlan/" target="_blanc">LinkedIn</a></button>
                 <button className="rounded bg-zinc-700 px-3 mx-3"><a href="/cv" target="_blanc">CV</a></button>

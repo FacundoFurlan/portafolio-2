@@ -51,7 +51,7 @@ export default function Cv(){
                         <span className="bg-red-400 absolute mt-1 top-0 left-[50%] min-w-[2px] min-h-full block translate-x-[7px]"></span>
                     </div>
                     <div className="flex flex-col">
-                        <div className="text-xl">Bachelor's Degree in Engineering</div>
+                        <div className="text-xl">Bachelor&apos;s Degree in Engineering</div>
                         <div className="mb-2">UNL-FICH 2020/...</div>
                     </div>
                 </div>
@@ -60,7 +60,7 @@ export default function Cv(){
                         <span className="block absolute mt-1 top-0 left-[50%] bg-red-400 min-w-4 min-h-4 rounded-full"></span>
                     </div>
                     <div className="flex flex-col">
-                        <div className="text-xl">Bachelor's Degree in Video Game Production and Digital Entertainment</div>
+                        <div className="text-xl">Bachelor&apos;s Degree in Video Game Production and Digital Entertainment</div>
                         <div className="mb-2">UNRaf 2023/...</div>
                     </div>
                 </div>
