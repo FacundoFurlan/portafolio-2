@@ -3,7 +3,7 @@ export default function Cv(){
         <div className="pt-10 flex flex-col justify-center align-center bg-zinc-800 xl:ml-[25%] min-h-[100vh] w-full">
             <div className="flex flex-col justify-center mx-10">
                 <div className="text-3xl mb-4">Profile ⭐</div>
-                <div className="mb-6">Software Engeenier currently looking for a job as a FullStack Developer. I have Academic/Work experience in web and desktop projects with technologies such as C++, C# and TypeScript, as well as HTML, CSS, Tailwind CSS and React. In addition to MySQL, SQL Server, FireBase and MongoDB database management.</div>
+                <div className="mb-6">Software Engineer currently looking for a job as a FullStack Developer. I have Academic/Work experience in web and desktop projects with technologies such as C++, C# and TypeScript, as well as HTML, CSS (And varieties like SASS, TailwindCSS, BootsTrap), and React. In addition to MySQL, SQL Server, FireBase and MongoDB database management.</div>
                 <div className="text-3xl mb-4">Education 📚​</div>
                 <div className="flex flex-row align-center">
                     <div className="flex relative justify-center align-center mr-8">
@@ -74,7 +74,7 @@ export default function Cv(){
                     </li>
                     <li>
                         <div className="flex flex-col">
-                            <div className="text-xl">Inglish</div>
+                            <div className="text-xl">English</div>
                             <div className="mb-2">B2</div>
                         </div>
                     </li>
