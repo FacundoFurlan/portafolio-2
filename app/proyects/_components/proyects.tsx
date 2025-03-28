@@ -12,7 +12,7 @@ export default function Proyects({name, link, description, img, github, tags}: {
                 <div className="ml-1">{description}</div>
                 <div className="flex flex-row align-center mt-2 flex-wrap max-w-[100%]">
                     {
-                        tags.map(x => <div className={`px-2 border my-1 border-zinc-400 rounded mr-2 ${ x == "Cache" ? "text-pink-400 border-pink-400":""} ${ x == "In progress" ? "text-red-400 border-red-400":""} ${ x == "TypeScript" ? "text-purple-400 border-purple-400":""} ${ x == "React" ? "text-orange-400 border-orange-400":""} ${ x == "MongoDB" ? "text-green-400 border-green-400":""} ${ x == "NextJS" ? "text-blue-400 border-blue-400":""}`} key={name}>{x}</div>)
+                        tags.map(x => <div className={`border-zinc-400 px-2 border my-1 rounded mr-2 ${ x == "Cache" ? "text-pink-400 border-pink-400":""} ${ x == "In progress" ? "text-red-400 border-red-400":""} ${ x == "TypeScript" ? "text-purple-400 border-purple-400":""} ${ x == "React" ? "text-orange-400 border-orange-400":""} ${ x == "MongoDB" ? "text-green-400 border-green-400":""} ${ x == "NextJS" ? "text-blue-400 border-blue-400":""}`} key={name}>{x}</div>)
                     }
                 </div>
             </div>
