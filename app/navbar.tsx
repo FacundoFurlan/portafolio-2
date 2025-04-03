@@ -41,9 +41,9 @@ export default function NavBarPerso(){
                         {menuItems.map((item, index) => (
                             <NavbarMenuItem key={`${item}-${index}`} className="my-2">
                             <Link
-                                color= "foreground"
-                                className="w-full"
-                                href={item === "This is me" ? "/" : item === "Proyects" ? "/proyects" : "/cv"}
+                                color = "foreground"
+                                className ="w-full"
+                                href ={item === "This is me" ? "/" : item === "Proyects" ? "/proyects" : "/cv"}
                                 size="lg"
                             >
                                 {item}
