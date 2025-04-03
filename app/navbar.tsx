@@ -56,7 +56,7 @@ export default function NavBarPerso(){
                             <div className="flex flex-col ml-3 mr-2 justify-evenly rounded bg-zinc-800 p-1">
                                 <div className="flex flex-row justify-evenly py-4 border-zinc-700">
                                     <a href="https://www.linkedin.com/in/facundo-furlan/" target="_blanc"><img className="w-8" src="/linkedin.svg" alt="" /></a>
-                                    <a href="https://github.com/NeroWork" target="_blanc"><img className="w-8" src="/github.svg" alt="" /></a>
+                                    <a href="https://github.com/FacundoFurlan" target="_blanc"><img className="w-8" src="/github.svg" alt="" /></a>
                                     <a href="https://t.me/FurlanFacundo" target="_blanc"><img className="w-8" src="/telegram.svg" alt="" /></a>
                                 </div>
                             </div>
